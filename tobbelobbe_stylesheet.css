@@ -16,12 +16,17 @@ img{
 .redirect{
     vertical-align: top;
     padding: 10px;
+    padding-bottom: 0;
     display: inline-block;
     color: white;
     height: 50px;
     font-size: 1.5rem;
     margin-top: 0;
     text-decoration: none;
+}
+
+.redirect:hover{
+    background-color: rgb(41, 41, 41);
 }
 
 .solid {
