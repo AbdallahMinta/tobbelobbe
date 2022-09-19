@@ -22,3 +22,8 @@ img{
     margin-top: 0;
     text-decoration: none;
 }
+
+.solid {
+    border-top: #bbb;
+    margin: 0;
+}
