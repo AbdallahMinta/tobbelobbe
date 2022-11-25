@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap');
 
+/*Stiller inn body*/
 body{
     margin: 0;
     background-color: #658E9C;
 }
 
+/*Tekstredigering*/
 header, button{
     font-family: "roboto-mono", sans-serif;
     font-weight: 400;
@@ -13,22 +15,23 @@ header, button{
     text-decoration: none;
 }
 
+/*Fikser logoen*/
 .logo{
-    cursor: pointer;
+    width: 10rem;
+    min-width: 10rem;
 }
 
-.logo{
-    width: 10%;
-}
-
+/*Navbar*/
 header{
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     align-items: center; 
     gap: 1fr;
     background-color: #ccc9a1;
     height: 9vh;
+    min-height: 40px;
+    gap: 50px;
+    
 }
 
 a{
@@ -37,10 +40,12 @@ a{
     padding-right: 15px;
 }
 
+/*font for artikklene*/
 article{
     background-color: #CCC9A1;
     font-family: "roboto-mono",sans-serif;
 }
+
 
 /*Grid starter her*/
 main{
