@@ -17,6 +17,10 @@ header, button{
     cursor: pointer;
 }
 
+.logo{
+    width: 10%;
+}
+
 header{
     display: flex;
     justify-content: space-between;
