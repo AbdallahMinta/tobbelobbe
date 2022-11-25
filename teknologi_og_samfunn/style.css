@@ -3,3 +3,14 @@ nav{
     top: 0;
     width: 100%
 }/*Gjør logoen og menyen "sticky"*/
+
+main{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: 100px;
+}
+main article{
+    border: solid black;
+    background-color: red;
+    min-width: 100px;
+}
