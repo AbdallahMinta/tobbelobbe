@@ -1,9 +1,38 @@
-nav{
-    position: fixed;
-    top: 0;
-    width: 100%
-}/*Gjør logoen og menyen "sticky"*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header, button{
+    font-family: "NotoSansBuh", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #d6ffb7;
+    text-decoration: none;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center; 
+    gap: 1fr;
+    background-color: #92d5e6;
+}
+
+article{
+    background-color: #92d5e6;
+}
+
+/*Grid starter her*/
 main{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
