@@ -40,21 +40,17 @@ a{
     padding-right: 15px;
 }
 
-/*font for artikklene*/
-article{
-    background-color: #CCC9A1;
-    font-family: "roboto-mono",sans-serif;
-}
-
-
 /*Grid starter her*/
 main{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: 100px;
+    margin: 10px;
 }
 main article{
     border: solid black;
-    background-color: red;
+    background-color: #CCC9A1;
     min-width: 100px;
+    font-family: "roboto-mono",sans-serif;
+    grid-area: 2 / 1 / span 2 / span 3;
 }
