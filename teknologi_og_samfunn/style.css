@@ -2,13 +2,14 @@
 
 body{
     margin: 0;
+    background-color: #658E9C;
 }
 
 header, button{
     font-family: "roboto-mono", sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    color: #d6ffb7;
+    color: #CCC9A1;
     text-decoration: none;
 }
 
@@ -22,18 +23,18 @@ header{
     flex-direction: row;
     align-items: center; 
     gap: 1fr;
-    background-color: #92d5e6;
+    background-color: #ccc9a1;
     height: 9vh;
 }
 
 a{
     text-decoration: none;
-    color: #d6ffb7;
+    color: #1b4965;
     padding-right: 15px;
 }
 
 article{
-    background-color: #92d5e6;
+    background-color: #CCC9A1;
     font-family: "roboto-mono",sans-serif;
 }
 
