@@ -26,8 +26,15 @@ header{
     height: 9vh;
 }
 
+a{
+    text-decoration: none;
+    color: #d6ffb7;
+    padding-right: 15px;
+}
+
 article{
     background-color: #92d5e6;
+    font-family: "roboto-mono",sans-serif;
 }
 
 /*Grid starter her*/
