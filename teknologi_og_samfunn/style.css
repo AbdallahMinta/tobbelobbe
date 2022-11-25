@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap');
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-
 header, button{
     font-family: "NotoSansBuh", sans-serif;
     font-weight: 400;
