@@ -19,6 +19,7 @@ header{
     align-items: center; 
     gap: 1fr;
     background-color: #92d5e6;
+    height: 9vh;
 }
 
 article{
