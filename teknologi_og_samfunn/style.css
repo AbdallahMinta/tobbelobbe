@@ -58,6 +58,8 @@ main article{
 .artikkel_bilde1{
     grid-row: span 5;
     object-fit: cover;
+}
+
 /* Collapsable når siden blir mindre, Tobias og Aksel */
 .collapsible{
     border: none;
