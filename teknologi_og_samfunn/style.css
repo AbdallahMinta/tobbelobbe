@@ -54,3 +54,44 @@ main article{
     font-family: "roboto-mono",sans-serif;
     grid-area: 2 / 1 / span 2 / span 3;
 }
+
+/* Collapsable når siden blir mindre, Tobias og Aksel */
+.collapsible{
+    border: none;
+    background-color: #ccc9a1;
+}
+/*Legger til farge hvis knappen trykkes på*/
+.active, .collapsible:hover {
+    background-color: #ccc9a1;
+}
+
+.active{
+    margin-top: 137px;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    width: 100px;
+}
+
+@media only screen and (min-width:600px) {
+    .collapsable{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .navbar_element{
+        display: none;
+    }
+}
+
+.collapsable_meny{
+    height: 30px;
+}
+
+.dropdown_text{
+    color: black;
+}

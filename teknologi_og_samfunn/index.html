@@ -10,9 +10,35 @@
 <body>
     <header>
         <img class="logo" src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="WIP" >
-        <a href=""><article>Artikkel</article></a>
-        <a href=""><article>Artikkel 2</article></a>
-        <a href=""><article>Artikkel 3</article></a>
+        <a href="" class="navbar_element"><article>Artikkel</article></a>
+        <a href="" class="navbar_element"><article>Artikkel 2</article></a>
+        <a href="" class="navbar_element"><article>Artikkel 3</article></a>
+        
+        <!--Collapsable i navbar-->
+        <li class="collapsable"><button type="button" class="collapsible"><img class="collapsable_meny" src="bilder/meny.png" class="picture"></button>
+        <div class="content">
+            <p><a class="dropdown_text" href="hjemsted.html">Hjemmestedet</a></p>
+            <p><a class="dropdown_text" href="bestill_reise.html">Bestill din reise</a></p>
+            <p><a class="dropdown_text" href="reisealternativer.html">Reisealternativer</a></p>
+            
+        </div>
+        
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script></li>
 </header>
 <main>
     <article></article>
