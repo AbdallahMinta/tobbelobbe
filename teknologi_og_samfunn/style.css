@@ -74,6 +74,7 @@ main article{
 .collapsible{
     border: none;
     background-color: #ccc9a1;
+    margin-right: 274.6px;
 }
 /*Legger til farge hvis knappen trykkes på*/
 .active, .collapsible:hover {
