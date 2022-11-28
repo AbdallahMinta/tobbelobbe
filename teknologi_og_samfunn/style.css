@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&display=swap');
 
-/*Stiller inn body*/
+/*Stiller inn body, Abdallah*/
 body{
     margin: 0;
     background-color: #658E9C;
@@ -53,6 +53,11 @@ main article{
     min-width: 100px;
     font-family: "roboto-mono",sans-serif;
     grid-area: 2 / 1 / span 2 / span 3;
+}
+
+.artikkel_bilde1{
+    grid-row: span 5;
+    object-fit: cover;
 }
 
 /* Collapsable når siden blir mindre, Tobias og Aksel */
