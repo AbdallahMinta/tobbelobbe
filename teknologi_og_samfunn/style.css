@@ -68,6 +68,8 @@ main article{
     object-fit: cover;
     align-items: center;
     margin: 0;
+    background-image: url("/tobbelobbe/teknologi_og_samfunn/bilder/960x0.jpg");
+    object-fit: cover;
 }
 
 /* Collapsable når siden blir mindre, Tobias og Aksel */
