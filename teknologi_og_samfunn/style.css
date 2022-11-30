@@ -31,7 +31,8 @@ header{
     height: 9vh;
     min-height: 40px;
     gap: 50px;
-    
+    flex-grow: 1;
+    min-width: 350px;
 }
 
 a{
@@ -74,7 +75,6 @@ main article{
 .collapsible{
     border: none;
     background-color: #ccc9a1;
-    margin-right: 274.6px;
 }
 /*Legger til farge hvis knappen trykkes på*/
 .active, .collapsible:hover {
@@ -91,10 +91,13 @@ main article{
     overflow: hidden;
     width: 100px;
     z-index: 1;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 10px;
 }
 
 @media only screen and (min-width:600px) {
-    .collapsable{
+    .meny{
         display: none;
     }
     #dropdown_logo{
@@ -111,10 +114,14 @@ main article{
     }
 }
 
-.collapsable_meny{
+.collapsible_meny{
     height: 30px;
 }
 
 .dropdown_text{
     color: black;
+}
+
+#default_logo{
+    margin-left: 10px;
 }
