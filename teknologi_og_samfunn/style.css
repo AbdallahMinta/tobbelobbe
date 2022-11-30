@@ -77,17 +77,16 @@ main article{
 .collapsible{
     border: none;
     background-color: #ccc9a1;
+    position: relative;
 }
 /*Legger til farge hvis knappen trykkes på*/
 .active, .collapsible:hover {
     background-color: #ccc9a1;
 }
 
-.active{
-    margin-top: 137px;
-}
-
 .content {
+    position: absolute;
+    left: 20px;
     padding: 0 18px;
     display: none;
     overflow: hidden;
