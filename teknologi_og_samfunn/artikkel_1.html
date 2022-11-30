@@ -9,40 +9,51 @@
 </head>
 <body>
     <header>
-        <img class="logo" id="default_logo" src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="WIP" >
-        <a href="" class="navbar_element"><article>Artikkel</article></a>
-        <a href="" class="navbar_element"><article>Artikkel 2</article></a>
-        <a href="" class="navbar_element"><article>Artikkel 3</article></a>
-        
+        <img class="logo" id="default_logo" src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="WIP">
+        <a href="" class="navbar_element">
+            <article>Artikkel</article>
+        </a>
+        <a href="" class="navbar_element">
+            <article>Artikkel 2</article>
+        </a>
+        <a href="" class="navbar_element">
+            <article>Artikkel 3</article>
+        </a>
+
         <!--Collapsible i navbar-->
-        <li class="meny"><button type="button" class="collapsible"><img class="collapsible_meny" src="bilder/meny.png" class="picture"></button>
-        <div class="content">
-            <p><a class="dropdown_text" href="artikkel_1.html">Artikkel 1</a></p>
-            <p><a class="dropdown_text" href="artikkel_2.html">Artikkel 2</a></p>
-            <p><a class="dropdown_text" href="artikkel_3.html">Artikkel 3</a></p>
-            
+        <div class="meny"><button type="button" class="collapsible"><img class="collapsible_meny" src="bilder/meny.png"
+                    class="picture"></button>
+            <div class="content">
+                <p><a class="dropdown_text" href="hjemsted.html">Hjemmestedet</a></p>
+                <p><a class="dropdown_text" href="bestill_reise.html">Bestill din reise</a></p>
+                <p><a class="dropdown_text" href="reisealternativer.html">Reisealternativer</a></p>
+
+            </div>
         </div>
-        
-        <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
-            
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
-            }
-            </script></li>
         <!--Collapsible i navbar slutt-->
-        <img class="logo" id="dropdown_logo" src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="WIP" >
+        <img class="logo" id="dropdown_logo" src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="WIP">
 
     </header>
+    <main>
+        <article></article>
+    </main>
+</body>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
     <main id="main2">
        <article class="artikkel_bilde1"></article>
     </main>
