@@ -4,47 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Artikkel 2</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img class="logo" id="default_logo" src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="WIP" >
-        <a href="" class="navbar_element"><article>Artikkel</article></a>
-        <a href="" class="navbar_element"><article>Artikkel 2</article></a>
-        <a href="" class="navbar_element"><article>Artikkel 3</article></a>
-        
+        <img class="logo" id="default_logo" src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="WIP">
+        <a href="index.html" class="navbar_element">
+            <article>Hjemmeside</article>
+        </a>
+        <a href="artikkel_1.html" class="navbar_element">
+            <article>Artikkel 1</article>
+        </a>
+        <a href="artikkel_3.html" class="navbar_element">
+            <article>Artikkel 3</article>
+        </a>
+
         <!--Collapsible i navbar-->
-        <li class="meny"><button type="button" class="collapsible"><img class="collapsible_meny" src="bilder/meny.png" class="picture"></button>
-        <div class="content">
-            <p><a class="dropdown_text" href="artikkel_1.html">Artikkel 1</a></p>
-            <p><a class="dropdown_text" href="artikkel_2.html">Artikkel 2</a></p>
-            <p><a class="dropdown_text" href="artikkel_3.html">Artikkel 3</a></p>
-            
+        <div class="meny"><button type="button" class="collapsible"><img class="collapsible_meny" src="bilder/meny.png"
+                    class="picture"></button>
+            <div class="content">
+                <p><a class="dropdown_text" href="index.html">Hjemmeside</a></p>
+                <p><a class="dropdown_text" href="artikkel_1.html">Artikkel 1</a></p>
+                <p><a class="dropdown_text" href="artikkel_3.html">Artikkel 3</a></p>
+
+            </div>
         </div>
-        
-        <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
-            
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
-            }
-            </script></li>
         <!--Collapsible i navbar slutt-->
-        <img class="logo" id="dropdown_logo" src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="WIP" >
+        <img class="logo" id="dropdown_logo" src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="WIP">
 
     </header>
-    <main id="main2">
-       <article class="artikkel_bilde1"><img src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="artikkel_bilde"></article>
+    <main>
+        <article class="top_bilde"></article>
     </main>
 </body>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
 </html>

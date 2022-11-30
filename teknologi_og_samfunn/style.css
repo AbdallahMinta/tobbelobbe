@@ -62,7 +62,7 @@ main article{
 }
 
 /*Bildene på toppen av artiklene*/
-.artikkel_bilde1{
+.top_bilde{
     grid-column-start: 1;
     grid-column-end: 12;
     grid-row: span 3;
@@ -86,7 +86,6 @@ main article{
 
 .content {
     position: absolute;
-    left: 20px;
     padding: 0 18px;
     display: none;
     overflow: hidden;
