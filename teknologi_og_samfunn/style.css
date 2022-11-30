@@ -86,7 +86,6 @@ main article{
 
 .content {
     position: absolute;
-    left: 20px;
     padding: 0 18px;
     display: none;
     overflow: hidden;
