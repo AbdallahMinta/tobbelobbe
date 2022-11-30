@@ -73,6 +73,17 @@ main article{
     object-fit: cover;
 }
 
+.top_bilde_artikkel_2{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row: span 3;
+    object-fit: cover;
+    align-items: center;
+    margin: 0;
+    background-image: url("/tobbelobbe/teknologi_og_samfunn/bilder/lovboker.jpg");
+    object-fit: cover;
+}
+
 /* Collapsible når siden blir mindre, Tobias og Aksel */
 .collapsible{
     border: none;
