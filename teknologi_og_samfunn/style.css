@@ -49,9 +49,10 @@ main{
     grid-auto-rows: 100px;
     margin: 10px;
 }
+
+
 main article{
-    border: solid black;
-    background-color: #CCC9A1;
+   
     min-width: 100px;
     font-family: "roboto-mono",sans-serif;
     z-index: -1;
@@ -135,5 +136,11 @@ main article{
 
 #default_logo{
     margin-left: 10px;
+}
+
+.tekst{
+    grid-column: span 8;
+    border-right: solid black 2px;
+    margin-top: 5px;
 }
 
