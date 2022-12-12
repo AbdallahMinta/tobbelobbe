@@ -35,10 +35,11 @@ header{
     min-width: 350px;
 }
 
-a{
+header a{
     text-decoration: none;
     color: #1b4965;
     padding-right: 15px;
+    font-size: 1em;
 }
 
 /*Grid starter her*/
@@ -98,6 +99,10 @@ main article{
     background-color: #ccc9a1;
 }
 
+content p a{
+    font-size: 1em;
+}
+
 .content {
     position: absolute;
     padding: 0 18px;
@@ -145,6 +150,7 @@ main article{
 p{
     margin: 0;
     padding: 10px;
+    font-size: 1em;
 }
 
 
@@ -176,5 +182,5 @@ p a{
     text-align: center;
     position: relative;
     top: 15px;
+    font-size: 1.2em;
 }
-
