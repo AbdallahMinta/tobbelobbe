@@ -140,9 +140,18 @@ main article{
     margin-left: 10px;
 }
 
+/*Artikkel tekst*/
+
 p{
     margin: 0;
     padding: 10px;
+}
+
+
+p a{
+    padding: 0;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .overskrift{
@@ -154,8 +163,6 @@ p{
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
-
-/*Artikkel 2 styling*/
 
 .tekst{
     grid-column-start: 4;
@@ -169,12 +176,4 @@ p{
     text-align: center;
     position: relative;
     top: 15px;
-}
-
-/*Artikkel 3 styling*/
-
-p a{
-    padding: 0;
-    font-weight: bold;
-    text-decoration: underline;
 }
