@@ -184,7 +184,7 @@ p{
     border-top-right-radius: 50px;
 }
 
-.tekst_tobias{
+.tekst{
     grid-column-start: 4;
     grid-column-end: 9;
     grid-row: auto;
