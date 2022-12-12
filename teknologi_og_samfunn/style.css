@@ -149,12 +149,6 @@ main article{
     margin-left: 10px;
 }
 
-.tekst{
-    grid-column: span 8;
-    border-right: solid black 2px;
-    margin-top: 5px;
-}
-
 .aleks{
     grid-column: span 6;
     margin-bottom: 1em;
