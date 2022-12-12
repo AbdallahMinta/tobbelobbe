@@ -157,3 +157,12 @@ p{
     background-color: #ccc9a1;
     opacity: 0.8;
 }
+
+.aleks{
+    grid-column: span 8;
+    margin-bottom: 1em;
+}
+
+article a{
+    padding: 0;
+}
