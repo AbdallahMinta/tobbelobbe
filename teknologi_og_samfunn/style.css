@@ -85,6 +85,17 @@ main article{
     object-fit: cover;
 }
 
+.top_bilde_artikkel_3{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row: span 3;
+    object-fit: contain;
+    align-items: center;
+    margin: 0;
+    background-image: url("bilder/kunstig_intelligens_arbeidsplass.jpg");
+    object-fit: cover;
+}
+
 /* Collapsible når siden blir mindre, Tobias og Aksel */
 .collapsible{
     border: none;
