@@ -78,13 +78,12 @@ main article{
 
 .top_bilde_artikkel_3{
     grid-column-start: 1;
-    grid-column-end: 12;
+    grid-column-end: 5;
     grid-row: span 3;
-    object-fit: contain;
+    object-fit: cover;
     align-items: center;
     margin: 0;
     background-image: url("bilder/kunstig_intelligens_arbeidsplass.jpg");
-    object-fit: cover;
 }
 
 /* Collapsible når siden blir mindre, Tobias og Aksel */
@@ -156,10 +155,12 @@ main article{
 }
 
 .aleks{
-    grid-column: span 8;
+    grid-column: span 6;
     margin-bottom: 1em;
 }
 
-article a{
+p a{
     padding: 0;
+    font-weight: bold;
+    text-decoration: underline;
 }
