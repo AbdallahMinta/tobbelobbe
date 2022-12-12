@@ -142,13 +142,6 @@ main article{
     grid-column: span 8;
     border-right: solid black 2px;
     margin-top: 5px;
-<<<<<<< HEAD
-=======
-}
-
-p{
-    background-color: #ccc9a1;
-    opacity: 0.8;
 }
 
 .aleks{
@@ -158,5 +151,4 @@ p{
 
 article a{
     padding: 0;
->>>>>>> 64b67bf73edcfdcf479fadd47dcffce035a21b87
 }
