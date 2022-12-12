@@ -48,6 +48,7 @@ main{
     grid-template-rows: 100px;
     grid-auto-rows: auto;
     margin: 10px;
+    margin-bottom: 0;
 }
 
 
