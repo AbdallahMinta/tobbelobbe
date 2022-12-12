@@ -10,7 +10,7 @@ body{
 header, button{
     font-family: "roboto-mono", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1em;
     color: #CCC9A1;
     text-decoration: none;
 }
@@ -42,59 +42,12 @@ header a{
     font-size: 1em;
 }
 
-/*Grid starter her*/
-main{
-    display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: 100px;
-    grid-auto-rows: auto;
-    margin: 10px;
-    margin-bottom: 0;
-}
-
-
-main article{
-   
-    min-width: 100px;
-    font-family: "roboto-mono",sans-serif;
-}
-
-#main2{
-    margin: 0;
-}
-
-/*Bildene på toppen av artiklene*/
-
-
-.top_bilde_artikkel_2{
-    grid-column-start: 2;
-    grid-column-end: 11;
-    grid-row: span 3;
-    height: 300px;
-    object-fit: cover;
-    align-items: center;
-    margin: 0;
-    background-image: url("bilder/lovboker.jpg");
-}
-
-.top_bilde_artikkel_3{
-    grid-column-start: 3;
-    grid-column-end: 10;
-    grid-row: span 3;
-    height: 300px;
-    object-fit: cover;
-    align-items: center;
-    margin: 0;
-    background-image: url("bilder/kunstig_intelligens_arbeidsplass.jpg");
-}
-
-/* Collapsible når siden blir mindre, Tobias og Aksel */
+/* Collapsible i navbar når siden blir mindre, Tobias og Aksel */
 .collapsible{
     border: none;
     background-color: #ccc9a1;
     position: relative;
 }
-/*Legger til farge hvis knappen trykkes på*/
 .active, .collapsible:hover {
     background-color: #ccc9a1;
 }
@@ -144,6 +97,54 @@ content p a{
 #default_logo{
     margin-left: 10px;
 }
+
+/*Grid starter her*/
+main{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: 100px;
+    grid-auto-rows: auto;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+
+main article{
+   
+    min-width: 100px;
+    font-family: "roboto-mono",sans-serif;
+}
+
+#main2{
+    margin: 0;
+}
+
+/*Bildene på toppen av artiklene*/
+
+
+.top_bilde_artikkel_2{
+    grid-column-start: 2;
+    grid-column-end: 11;
+    grid-row: span 3;
+    height: 300px;
+    object-fit: cover;
+    align-items: center;
+    margin: 0;
+    background-image: url("bilder/lovboker.jpg");
+}
+
+.top_bilde_artikkel_3{
+    grid-column-start: 3;
+    grid-column-end: 10;
+    grid-row: span 3;
+    height: 300px;
+    object-fit: cover;
+    align-items: center;
+    margin: 0;
+    background-image: url("bilder/kunstig_intelligens_arbeidsplass.jpg");
+}
+
+
 
 /*Artikkel tekst*/
 
