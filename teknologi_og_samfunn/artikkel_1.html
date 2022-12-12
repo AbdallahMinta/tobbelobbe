@@ -7,11 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artikkel 1</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #top_bilde {
+            background-image: url("bilder/chatgpt-kopi.png");
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row: span 3;
+            object-fit: cover;
+            background-position: 50%;
+            align-items: center;
+            margin: 0;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <a href="index.html" id="default_logo"><img class="logo" id="default_logo" src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="WIP"></a>
+        <a href="index.html" id="default_logo"><img class="logo" id="default_logo"
+                src="/tobbelobbe/teknologi_og_samfunn/bilder/logo.png" alt="WIP"></a>
         <a href="index.html" class="navbar_element">
             <article>Hjemmeside</article>
         </a>
@@ -37,12 +50,20 @@
 
     </header>
     <main>
-        <article class="top_bilde"></article>
-        <article class="tekst"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, temporibus voluptas fugiat architecto corporis nemo sint iusto? Perferendis eum voluptas vitae ad? Quis nihil enim nam illo facere non hic. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius non quia, quam obcaecati facilis reiciendis consequatur similique! Veniam ratione, aperiam fugit minus, impedit aut inventore sequi nam distinctio omnis tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, odit exercitationem et itaque voluptatem explicabo fugit esse ab molestiae doloremque repellat beatae quod porro quasi similique ipsum, hic omnis suscipit.</p></article>
-        
-    </main> 
-    
-    
+        <article id="top_bilde"></article>
+        <article class="tekst">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, temporibus voluptas fugiat
+                architecto corporis nemo sint iusto? Perferendis eum voluptas vitae ad? Quis nihil enim nam illo facere
+                non hic. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius non quia, quam obcaecati facilis
+                reiciendis consequatur similique! Veniam ratione, aperiam fugit minus, impedit aut inventore sequi nam
+                distinctio omnis tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, odit
+                exercitationem et itaque voluptatem explicabo fugit esse ab molestiae doloremque repellat beatae quod
+                porro quasi similique ipsum, hic omnis suscipit.</p>
+        </article>
+
+    </main>
+
+
 </body>
 <script>
     var coll = document.getElementsByClassName("collapsible");
@@ -61,4 +82,5 @@
     }
 </script>
 </body>
+
 </html>

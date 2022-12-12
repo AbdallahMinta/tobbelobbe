@@ -63,16 +63,7 @@ main article{
 }
 
 /*Bildene på toppen av artiklene*/
-.top_bilde{
-    grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row: span 3;
-    object-fit: cover;
-    align-items: center;
-    margin: 0;
-    background-image: url("/tobbelobbe/teknologi_og_samfunn/bilder/960x0.jpg");
-    object-fit: cover;
-}
+
 
 .top_bilde_artikkel_2{
     grid-column-start: 1;
@@ -81,7 +72,7 @@ main article{
     object-fit: cover;
     align-items: center;
     margin: 0;
-    background-image: url("/tobbelobbe/teknologi_og_samfunn/bilder/lovboker.jpg");
+    background-image: url("bilder/lovboker.jpg");
     object-fit: cover;
 }
 
@@ -162,11 +153,6 @@ main article{
     grid-column: span 8;
     border-right: solid black 2px;
     margin-top: 5px;
-}
-
-p{
-    background-color: #ccc9a1;
-    opacity: 0.8;
 }
 
 .aleks{
