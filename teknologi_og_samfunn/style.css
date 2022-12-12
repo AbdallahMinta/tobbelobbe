@@ -78,8 +78,9 @@ main article{
 
 .top_bilde_artikkel_3{
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 11;
     grid-row: span 3;
+    height: 300px;
     object-fit: cover;
     align-items: center;
     margin: 0;
@@ -154,17 +155,6 @@ main article{
     margin-top: 5px;
 }
 
-.aleks{
-    grid-column: span 6;
-    margin-bottom: 1em;
-}
-
-p a{
-    padding: 0;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 p{
     margin: 0;
     padding: 10px;
@@ -194,4 +184,19 @@ p{
     text-align: center;
     position: relative;
     top: 15px;
+}
+
+/*Artikkel 3 styling*/
+.aleks{
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row: auto;
+    background-color: #ccc9a1;
+    opacity: 0.7;
+}
+
+p a{
+    padding: 0;
+    font-weight: bold;
+    text-decoration: underline;
 }
