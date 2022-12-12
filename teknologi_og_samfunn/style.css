@@ -46,7 +46,7 @@ main{
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     grid-template-rows: 100px;
-    grid-auto-rows: 100px;
+    grid-auto-rows: auto;
     margin: 10px;
 }
 
@@ -66,14 +66,14 @@ main article{
 
 
 .top_bilde_artikkel_2{
-    grid-column-start: 1;
-    grid-column-end: 12;
+    grid-column-start: 2;
+    grid-column-end: 11;
     grid-row: span 3;
+    height: 300px;
     object-fit: cover;
     align-items: center;
     margin: 0;
     background-image: url("bilder/lovboker.jpg");
-    object-fit: cover;
 }
 
 .top_bilde_artikkel_3{
@@ -163,4 +163,35 @@ p a{
     padding: 0;
     font-weight: bold;
     text-decoration: underline;
+}
+
+p{
+    margin: 0;
+    padding: 10px;
+}
+
+.overskrift{
+    background-color: #ccc9a1;
+    opacity: 0.7;
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row: auto;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/*Artikkel 2 styling*/
+
+.tekst_tobias{
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row: auto;
+    background-color: #ccc9a1;
+    opacity: 0.7;
+}
+
+.overskrift h1{
+    text-align: center;
+    position: relative;
+    top: 15px;
 }
