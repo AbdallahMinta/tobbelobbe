@@ -119,33 +119,6 @@ main article{
     margin: 0;
 }
 
-/*Bildene på toppen av artiklene*/
-
-
-.top_bilde_artikkel_2{
-    grid-column-start: 2;
-    grid-column-end: 11;
-    grid-row: span 3;
-    height: 300px;
-    object-fit: cover;
-    align-items: center;
-    margin: 0;
-    background-image: url("bilder/lovboker.jpg");
-}
-
-.top_bilde_artikkel_3{
-    grid-column-start: 3;
-    grid-column-end: 10;
-    grid-row: span 3;
-    height: 300px;
-    object-fit: cover;
-    align-items: center;
-    margin: 0;
-    background-image: url("bilder/kunstig_intelligens_arbeidsplass.jpg");
-}
-
-
-
 /*Artikkel tekst*/
 
 p{
